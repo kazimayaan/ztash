@@ -1,8 +1,8 @@
 .home_hero{
     height :100vh;
     width: 100vw;
-    background-image: url("background/main_back.jpg");
-
+    background-image: url("background/output-onlinepngtools.png");
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .logo{
     height: 20px;
@@ -22,13 +22,13 @@
 }
 
 #navk{
-    background-color: #1e1e1e !important;
+    background-color: transparent !important;
     color: white;
 }
 .main_section{
     height :100vh;
     width: 100vw;
-    background-image: url("background/main_back.jpg");
+    background-image: url("background/output-onlinepngtools.png");
     background-size: cover;
     color: white;
 }
@@ -42,3 +42,72 @@
 ul.navbar-nav{
     margin: auto;
 }
+body{
+    background-color: #1e1e1e !important;
+}
+.login-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-image:linear-gradient(0deg, rgba(197.46458172798157, 37.187494933605194, 255, 1) 0%,rgba(56.79883539676666, 30.241406857967377, 219.93750303983688, 1) 100%) ;
+	opacity:0.9300000071525574;
+	/* width:159px; */
+	height:58px;
+	border-radius:15px;
+  }
+  .nav-link{
+    color: white !important;
+}
+.login-button img {
+    max-width: 20px; /* Adjust as needed */
+    margin-right: 5px;
+  }
+
+  .main_heading_title {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; Adjust as needed */
+    text-align: justify;
+    font-size: 50px;
+    margin-top: 25vh;
+}
+
+.main_heading_title h1 {
+    text-align: center;
+    font-size: 50px;
+    /* text-align: justify; */
+    margin-top: -31px;
+}
+.subheading h3
+{
+    display: block;
+    font-size: 20px;
+    max-width: 70vw;
+    margin-left: 16vw;
+    text-align: center;
+}
+.main_button{
+    box-shadow:0px 4px 27px rgba(213.94587814807892, 39.14574645459652, 229.14583772420883, 1);
+	background-image:linear-gradient(0deg, rgba(197.46458172798157, 37.187494933605194, 255, 1) 0%,rgba(56.79883539676666, 30.241406857967377, 219.93750303983688, 1) 100%) ;
+	width:30vw;
+	height:12vh;
+	border-radius:15px;
+    border: none;
+    color: white;
+    margin-left: 35vw;
+    margin-top: 5vh;
+}
+
+@media (max-width: 768px) {
+    .subheading h3{
+      font-size: 15px; /* Adjust font size for smaller screens */
+    }
+    .main_heading_title h1{
+        font-size: 35px;
+    }
+  }
