@@ -345,7 +345,7 @@ p.col-md-4.mb-0.text-body-secondary.white {
 .kform ::placeholder{
     
     color: #919191 !important;
-    font-size: 15px;
+    font-size: 15px !important;
 }
 input ::placeholder{
     
@@ -372,4 +372,8 @@ input ::placeholder{
 }
 .kv{
     border-radius: 5px;
+}
+.create_modal_button{
+    color: white !important;
+    background-image:linear-gradient(0deg, rgba(197.46458172798157, 37.187494933605194, 255, 1) 0%,rgba(56.79883539676666, 30.241406857967377, 219.93750303983688, 1) 100%) ;
 }
