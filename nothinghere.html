@@ -6,7 +6,12 @@
     <title>Bootstrap demo</title>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <link href="/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
@@ -27,8 +32,8 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
               <li class="nav-item">
@@ -40,41 +45,111 @@
               <img src="/ztash/assets/google.png" alt="Login Icon">
               <span>HI, Dinesh</span>
             </button>
-          </div>
         </div>
-      </nav>
+    </div>
+</nav>
+
+
+<div class="nothing_container">
+    <h1>
+        Nothing here, Yet
+    </h1>
+    <!-- <button class="nothing_here_yet_button">
+        Create new Vault
+    </button> -->
+    <div class="d-grid gap-2 d-md-flex justify-content-md-center justify-content-center">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 nothing_button">Create New Vault</button>
+      </div>
+</div>
+
+
+<div class="modal fade"  id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content create_modal">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Create Vault</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-3">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text"  id="form34" class="form-control validate kform" placeholder="Vault Name">
+          <!-- <label data-error="wrong" data-success="right" for="form34">Your name</label> -->
+        </div>
+        
+        
+
+       
+
+        <div class="md-form mb-3">
+            <i class="fas fa-pencil prefix grey-text"></i>
+            <textarea type="text" id="form8" class="md-textarea form-control kform" rows="4" placeholder="Vault Description"></textarea>
+            <!-- <label data-error="wrong" data-success="right" for="form8">Your message</label> -->
+          </div>
+
+        <div class="keyvalue">
+            <div class="kvpair">
+                
+                <input type="text"  id="key1" class="kform keyval kv" placeholder="Vault tag key">
+                <input type="text"  id="value1" class="kform keyval kv" placeholder="Vault tag Value">
+            </div>
+            <div class="kvpair">
+
+                <input type="text"  id="key2" class="kform keyval kv" placeholder="Vault tag key">
+                <input type="text"  id="value3" class="kform keyval kv" placeholder="Vault tag Value">
+            </div>
+            <div class="kvpair">
+                
+                <input type="text"  id="key3" class="kform keyval kv" placeholder="Vault tag key">
+                <input type="text"  id="value3" class="kform keyval kv" placeholder="Vault tag Value">
+            </div>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Create Vault <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center">
+  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-bs-toggle="modal" data-target="#modalContactForm" >Launch
+    Modal Contact Form</a>
+</div>
+
+
       
-
-
-
-
-
-
-
-        <style>
+      <style>
           @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
           </style>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </section>
     <section class="footer">
         <div class="container">
-          <footer class=" white d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <p class="col-md-4 mb-0 text-body-secondary white">&copy; 2023 Company, Inc</p>
-        
-            <a href="/" class="white col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-              <img class="bi me-2" width="40" height="32" src="/ztash/assets/ztash.png">
-            </a>
-        
-            <ul class="white nav col-md-4 justify-content-end">
-              <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-              <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-              <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-              <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-              <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
-            </ul>
-          </footer>
+            <footer class=" white d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <p class="col-md-4 mb-0 text-body-secondary white">&copy; 2023 Company, Inc</p>
+                
+                <a href="/" class="white col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img class="bi me-2" width="40" height="32" src="/ztash/assets/ztash.png">
+                </a>
+                
+                <ul class="white nav col-md-4 justify-content-end">
+                    <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                    <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item white"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul>
+            </footer>
         </div>
+
       </section>
+
+
     <!-- first section done -->
   </body>
 </html>

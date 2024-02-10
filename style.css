@@ -316,3 +316,60 @@ margin-top: 20vh;
 p.col-md-4.mb-0.text-body-secondary.white {
     color: white !important;
 }
+.nothing_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 33vh;
+}
+.nothing_button{
+    background-image:linear-gradient(0deg, rgba(102.00000151991844, 93.00000205636024, 205.00000298023224, 1) 0%,rgba(95.00000193715096, 164.00000542402267, 230.00000149011612, 1) 44.760000705718994%,rgba(210.00000268220901, 171.00000500679016, 103.0000014603138, 1) 100%) ;
+    box-shadow:0px 4px 27px rgba(213.94587814807892, 39.14574645459652, 229.14583772420883, 1);
+	background-image:linear-gradient(0deg, rgba(197.46458172798157, 37.187494933605194, 255, 1) 0%,rgba(56.79883539676666, 30.241406857967377, 219.93750303983688, 1) 100%) ;
+	width:20vw;
+    margin-top: 3vh;
+    /* background-image: linear-gradient(0deg, rgba(102.00000151991844, 93.00000205636024, 205.00000298023224, 1) 0%, rgba(95.00000193715096, 164.00000542402267, 230.00000149011612, 1) 44.760000705718994%, rgba(210.00000268220901, 171.00000500679016, 103.0000014603138, 1) 100%); */
+}
+.create_modal{
+    background-image: url('/ztash/background/mdoal.jpg');
+    background-size: cover;
+    width: 60vw;
+}
+.kform{
+    background-color: #313233 !important; 
+    color: #fff !important;
+    border: none !important;
+}
+.kform ::placeholder{
+    
+    color: #919191 !important;
+    font-size: 15px;
+}
+input ::placeholder{
+    
+    color: #919191 !important;
+}
+.keyval{
+    width: 40%;
+    padding: 10px;
+    margin:auto;
+}
+.keyvalue{
+    display: flex;
+}
+.keyvalue {
+    display: flex;
+    flex-direction: column;
+}
+
+.kvpair
+{
+    margin-left: 10%;
+    margin-bottom: 4px;
+    border-radius: 10px;
+}
+.kv{
+    border-radius: 5px;
+}
