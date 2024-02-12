@@ -539,3 +539,61 @@ button.key_modal_ok.close {
     color:white !important;
     background-image:linear-gradient(0deg, rgba(81.48241728544235, 69.93560448288918, 214.27083671092987, 1) 0%,rgba(52.000000700354576, 209.00000274181366, 231.00000143051147, 0.9300000071525574) 30.078125%,rgba(51.55635170638561, 209.0817591547966, 230.56247770786285, 0.4300000071525574) 66.00000262260437%,rgba(81.00000277161598, 70.00000342726707, 214.00000244379044, 0.949999988079071) 92.00000166893005%) ;
 }
+.delete_confirm_modal{
+    background-image:linear-gradient(0deg, rgba(160.83871185779572, 94.27636116743088, 154.18244183063507, 1) 0%,rgba(129.74238127470016, 42.30078175663948, 207.1875, 0.8945500254631042) 55.50000071525574%,rgba(96.54583498835564, 102.54399552941322, 246.49999290704727, 0.8100000023841858) 100%) ;
+	border-top-left-radius:55px;
+	border-top-right-radius:55px;
+	border-bottom-left-radius:55px;
+	border-bottom-right-radius:55px;
+    color:white !important;
+}
+.delete_buttons{
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: center;
+}
+.delete_modal_button{
+    background-image:linear-gradient(0deg, rgba(150.83327114582062, 2.5366669334471226, 202.93748885393143, 1) 0%,rgba(85.56125521659851, 69.45157885551453, 184.52083468437195, 1) 100%) ;
+	width:20%;
+	border-radius:10px;
+    color: white !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+}
+
+button.delete_modal_button.close {
+    padding: 10px;
+    margin: 10px;
+}
+
+@media (max-width: 949px) {
+   
+  .cards_container{
+    display: flex;
+  }
+  .vault_card{
+    width: 40%;
+    
+  }
+  }
+@media (max-width: 750px) {
+   
+  .cards_container{
+    display: flex;
+  }
+  .vault_card{
+    width: 70%;
+    margin-left: 15%;
+  }
+  }
+@media (max-width: 550px) {
+   
+  .cards_container{
+    display: flex;
+  }
+  .vault_card{
+    width: 90%;
+    margin-left: 5%;
+  }
+  }

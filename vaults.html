@@ -96,21 +96,21 @@
             Please Ignore this text.</p>
             <div class="vault_buttons">
                 <button class="status_button">
-                    <img src="/ztash/assets/status_k_inactive.png" height="25px" width="28px">
+                    <img src="/ztash/assets/status_k_inactive.png" height="25px" width="28px" type="button" data-toggle="modal" data-bs-toggle="modal" data-target="#modal_key">
                     <p class="vaultstatus">INACTIVE</p>
                 </button>
                 <div class="secondrow">
                     <button class="row2b vault_options">
-                        <img src="/ztash/assets/settings_icon.png" height="25px" width="28px">
+                        <img src="/ztash/assets/settings_icon.png" height="25px" width="28px" >
                     </button>
                     <button class="row2b vault_analytics">
-                        <img src="/ztash/assets/graph_icon.png" height="25px" width="28px">
+                        <img src="/ztash/assets/graph_icon.png" height="25px" width="28px" type="button" data-toggle="modal" data-bs-toggle="modal" data-target="#modal_analytics">
                     </button>
                     <button class="row2b vault_key">
-                        <img src="/ztash/assets/key_icon.png" height="25px" width="28px">
+                        <img src="/ztash/assets/key_icon.png" height="25px" width="28px" type="button" data-toggle="modal" data-bs-toggle="modal" data-target="#modal_key">
                     </button>
                     <button class="row2b vault_delete">
-                        <img src="/ztash/assets/delete_icon.png" height="25px" width="28px">
+                        <img src="/ztash/assets/delete_icon.png" height="25px" width="28px" type="button" data-toggle="modal" data-bs-toggle="modal" data-target="#delete_confirm_modal">
                     </button >
                 </div>
               
@@ -223,9 +223,9 @@
           <div class="modal-body py-0">
             <p>DO YOU REALLY WANT TO DELETE VAULT : VAULT1</p>
           </div>
-          <div class="modal-footer flex-column align-items-stretch w-100 gap-2 pb-3 border-top-0 delete_buttons">
-            <button type="button" data-bs-dismiss="modal" class="delete_modal close" data-dismiss="modal" aria-label="Close">OK</button>
-            <button type="button" data-bs-dismiss="modal" class="delete_modal close" data-dismiss="modal" aria-label="Close">Cancel</button>
+          <div class=" delete_buttons">
+            <button type="button" data-bs-dismiss="modal" class="delete_modal_button close" data-dismiss="modal" aria-label="Close">OK</button>
+            <button type="button" data-bs-dismiss="modal" class="delete_modal_button close" data-dismiss="modal" aria-label="Close">Cancel</button>
           </div>
     </div>
   </div>
