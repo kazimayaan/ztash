@@ -576,8 +576,24 @@ button.delete_modal_button.close {
     width: 40%;
     
   }
+  .nothing_button{
+    width: 40vw;
+  }
   }
 @media (max-width: 750px) {
+   
+  .cards_container{
+    display: flex;
+  }
+  .vault_card{
+    width: 30%;
+    margin-left: 35%;
+  }
+  .nothing_button{
+    width: 50vw;
+  }
+  }
+@media (max-width: 650px) {
    
   .cards_container{
     display: flex;
@@ -586,7 +602,12 @@ button.delete_modal_button.close {
     width: 70%;
     margin-left: 15%;
   }
+  .nothing_button{
+    width: 60vw;
   }
+  }
+
+
 @media (max-width: 550px) {
    
   .cards_container{
@@ -596,6 +617,25 @@ button.delete_modal_button.close {
     width: 90%;
     margin-left: 5%;
   }
+  .nothing_button{
+    width: 70vw;
+  }
   }
 
-  
+
+@media (max-width: 400px) {
+   
+  .cards_container{
+    display: flex;
+  }
+  .vault_card{
+    width: 90%;
+    margin-left: 5%;
+    height: 70vh;
+  }
+  .nothing_button{
+    width: 80vw;
+  }
+
+  }
+
