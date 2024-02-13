@@ -676,3 +676,15 @@ button.delete_modal_button.close {
   border-bottom: 2px solid linear-gradient(0deg, rgba(102.00000151991844, 93.00000205636024, 205.00000298023224, 1) 0%,rgba(95.00000193715096, 164.00000542402267, 230.00000149011612, 1) 44.760000705718994%,rgba(210.00000268220901, 171.00000500679016, 103.0000014603138, 1) 100%) ;
   background-color: transparent !important;
 }
+.contact_us_page{
+  background-image: url(/ztash/assets/contactbackground.png);
+  background-size: cover;
+  height: 100vh;
+}
+.rowk {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-family: sans-serif;
+}
