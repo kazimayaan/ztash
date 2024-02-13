@@ -579,6 +579,9 @@ button.delete_modal_button.close {
   .nothing_button{
     width: 40vw;
   }
+  .navbar-collapse{
+    background: #000000a3; ;
+  }
   }
 @media (max-width: 750px) {
    
@@ -639,3 +642,28 @@ button.delete_modal_button.close {
 
   }
 
+/* for navbar responsicveness*/
+
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-right: 10vw;
+  border-radius: 10px;
+  padding: 10px 20px;
+  /* background: #000000a3; */
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: url(/ztash/assets/toggle.png) !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
