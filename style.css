@@ -695,3 +695,6 @@ textarea.form-control::placeholder {
 input#form34::placeholder {
   color: #919191 !important;
 }
+.learnmore_button{
+  background: none !important;
+}
