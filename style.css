@@ -688,3 +688,7 @@ button.delete_modal_button.close {
   flex-direction: row;
   font-family: sans-serif;
 }
+
+textarea.form-control::placeholder {
+  color: white !important;
+}
