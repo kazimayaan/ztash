@@ -690,5 +690,8 @@ button.delete_modal_button.close {
 }
 
 textarea.form-control::placeholder {
-  color: white !important;
+  color: #919191 !important;
+}
+input#form34::placeholder {
+  color: #919191 !important;
 }
