@@ -273,6 +273,12 @@ margin-top: 20vh;
     .boxk {
       width: 48%; /* Adjust width for smaller screens */
       margin-bottom: 5px; /* Optional: add margin between boxes */
+      height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid white; */
+    border: 1px solid white !important;
     }
   
     .action_button {
@@ -636,7 +642,7 @@ button.delete_modal_button.close {
   .vault_card{
     width: 90%;
     margin-left: 5%;
-    height: 70vh;
+    height: 56vh;
   }
   .nothing_button{
     width: 80vw;
@@ -713,4 +719,44 @@ h1.display-5.fw-bold.main_heading_title.mainpage_header {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+}
+
+.ztashmainpage {
+  height: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+h1.display-5.fw-bold.main_heading_title {
+  text-align: center;
+}
+.rowk {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  font-family: sans-serif;
+  flex-wrap: wrap;
+}
+.action_page_contents {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.action_button_create_button{
+  margin: auto;
+  background-image:linear-gradient(0deg, rgba(102.00000151991844, 93.00000205636024, 205.00000298023224, 1) 0%,rgba(95.00000193715096, 164.00000542402267, 230.00000149011612, 1) 44.760000705718994%,rgba(210.00000268220901, 171.00000500679016, 103.0000014603138, 1) 100%) ;
+	width:30vw;
+	height:10vh;
+	border:none;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10vh;
+    margin-left: 35vw;
+  color: white;
 }
