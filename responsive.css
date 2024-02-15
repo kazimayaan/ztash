@@ -24,3 +24,23 @@
     }
   
     }
+@media (max-width: 760px) {
+   
+    footer.white.d-flex.flex-wrap.justify-content-between.align-items-center.py-3.my-4.border-top {
+        display: flex;
+        flex-direction: column;
+    }
+    p.col-md-4.mb-0.text-body-secondary.white {
+        text-align: center !important;
+        align-items: center;
+        margin: auto;
+    }
+    
+img.bi.me-2 {
+    display: none;
+}
+ul.white.nav.col-md-4.justify-content-end {
+    margin: auto;
+}
+  
+    }
