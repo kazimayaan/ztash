@@ -296,9 +296,11 @@ margin-top: 20vh;
     width: 100vw;
   }
   .container_contact{
-    /* display: flex; */
+    height: 100%;
+    display: flex;
     justify-content: center;
-    margin: 30vh;
+    flex-direction: column;
+    /* margin-top: 30vh; */
   }
   .main_heading_title{
     color: white;
@@ -697,4 +699,18 @@ input#form34::placeholder {
 }
 .learnmore_button{
   background: none !important;
+}
+
+
+h1.display-5.fw-bold.main_heading_title.mainpage_header {
+  text-align: center;
+}
+.mainheadingpage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
 }

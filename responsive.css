@@ -1,3 +1,26 @@
-.reverse_card{
 
-}
+@media (max-width: 992px) {
+   
+    .reverse_card{
+        display: flex;
+        flex-direction: column-reverse;
+        
+    }
+  
+    }
+@media (max-width: 772px) {
+   
+    button.btn.btn-primary.btn-lg.px-4.gap-3.main_button {
+        /* margin: no; */
+        margin: auto;
+    }
+    .resp_main_images
+    {
+        width: 100%;
+
+    }
+    .col-10.col-sm-8.col-lg-6.resp_main_images {
+        width: 100%;
+    }
+  
+    }
